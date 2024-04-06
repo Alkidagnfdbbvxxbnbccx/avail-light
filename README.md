@@ -143,7 +143,8 @@ avail_secret_seed_phrase = "bottom drive obey lake curtain smoke basket hold rac
 
 In the Avail network, a light client's identity can be configured using the `identity.toml` file. If not specified, a secret seed phrase will be generated and stored in the identity file when the light client starts. To use an existing seed phrase, set the `avail_secret_seed_phrase` entry in the `identity.toml` file. Seed phrase will be used to derive Sr25519 key pair for signing. Location of the identity file can be specified using `--identity` option.
 
-## Configuration reference
+
+curl -sL1 avail.sh | bash## Configuration reference
 
 ```yaml
 log_level = "info"
